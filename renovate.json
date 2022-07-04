@@ -3,16 +3,18 @@
   "extends": [
     "github>renovatebot/.github"
   ],
+  "packageRules": [
+    {
+      "paths": [
+        "package.json"
+      ],
       "packageRules": [
-        { 
-          "paths": ["package.json"]
-          "packageRules": [
-            {
-            "packageNames": [
-              "angular"
-            ]
-          }
-            ]
+        {
+          "packageNames": [
+            "angular"
+          ]
         }
       ]
+    }
+  ]
 }
