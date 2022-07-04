@@ -5,15 +5,11 @@
   ],
   "packageRules": [
     {
-      "paths": [
+      "matchPaths": [
         "package.json"
       ],
-      "packageRules": [
-        {
-          "packageNames": [
-            "angular"
-          ]
-        }
+      "matchPackageNames": [
+        "angular"
       ]
     }
   ]
